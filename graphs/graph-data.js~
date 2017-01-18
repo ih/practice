@@ -1,0 +1,10 @@
+// nodes - 0, 1, >1
+// edges - 0, 1, >1
+// connectedness - disconnected, connected components ,completely connected
+// cycles - acyclic, cyclic
+// directed - true, false
+var emptyGraph = {};
+var oneNode = {a: null};
+var twoNodesDisconnected = {a: null, b: null};
+var twoNodesConnected = {a: 'b', b: null};
+var twoNodesCycle = {a: 'b', b: 'c', c: 'a'};

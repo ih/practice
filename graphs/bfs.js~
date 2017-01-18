@@ -1,0 +1,12 @@
+function bfsIterative(graph, start) {
+  var queue = [start];
+  var visited = {};
+  while (queue.length > 0) {
+    var current = queue[0];
+    console.log(current);
+    var unvisited = _.filter(graph[current], function (node) {
+      return visited
+    });
+    queue.append(unvisited);
+  }
+}

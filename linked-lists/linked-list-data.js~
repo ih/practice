@@ -1,0 +1,15 @@
+class Node(next) {
+  this.next = next;
+  return {
+
+  }
+}
+
+// number of nodes - 0, 1, many
+// circular - true/false
+
+var nodeC = {data: 'c', next: null};
+
+var nodeB = {data: 'b', next: nodeC};
+
+var nodeA = {data: 'a', next: nodeB};
